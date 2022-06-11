@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>F1 Fan Club Survey</title>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+    </head>
+    <body>
+        <div id="body-div">
+            <h1 id="title">Formula 1 Fan Club Survey Form</h1>
+            <p id="description">Thank you for joining the F1 Fan Club community</p>
+            <form id="survey-form">
+                <fieldset>
+                    <section id="demographics">
+                        <label if="name-label" class="demographic-label">Name
+                            <input id="name" class="demographic-input" type="text" placeholder="Enter your name" required>
+                        </label>
+                        <label id="email-label" class="demographic-label">Email
+                            <input id="email" class="demographic-input" type="email" placeholder="Enter your email" required>
+                        </label>
+                        <label id="number-label" class="demographic-label">Age (optional)
+                            <input id="number" class="demographic-input" type="number" placeholder="Enter your age" min="13", max="99">
+                        </label>
+                    </section>
+                    <section id="favorite-team">
+                        <label id="dropdown-label" for="dropdown">Choose your favorite team:
+                            <select name="dropdown" id="dropdown" required>
+                                <option value="Select">Select</option>
+                                <option value="Alfa Romeo">Alfa Romeo</option>
+                                <option value="Alpha Tauri">Alpha Tauri</option>
+                                <option value="Alpine">Alpine</option>
+                                <option value="Aston Martin">Aston Martin</option>
+                                <option value="Ferrari">Ferrari</option>
+                                <option value="Haas">Haas</option>
+                                <option value="McLaren">McLaren</option>
+                                <option value="Mercedes">Mercedes</option>
+                                <option value="Red Bull">Red Bull</option>
+                                <option value="Williams">Williams</option>
+                            </select>
+                        </label>
+                    </section>
+                    <section id="favorite-principal">
+                        <label id="principal-label">Who is your favorite team principal?</label>
+                        <div id="principals">
+                            <div class="principal-column">
+                                <label class="principal"><input type="radio" name="principal" value="Fred Vasseur" checked> Fred Vasseur</label>
+                                <label class="principal"><input type="radio" name="principal" value="Franz Tost"> Franz Tost</label>
+                            </div>
+                            <div class="principal-column right-column">
+                                <label class="principal"><input type="radio" name="principal" value="Otmar Szafnauer"> Otmar Szafnauer</label>
+                                <label class="principal"><input type="radio" name="principal" value="Mike Crack"> Mike Crack</label>
+                            </div>
+                            <div class="principal-column right-column">
+                                <label class="principal"><input type="radio" name="principal" value="Mattia Binotto"> Mattia Binotto</label>
+                                <label class="principal"><input type="radio" name="principal" value="Guenther Steiner"> Guenther Steiner</label>
+                            </div>
+                            <div class="principal-column right-column">
+                                <label class="principal"><input type="radio" name="principal" value="Andreas Seidl"> Andreas Seidl</label>
+                                <label class="principal"><input type="radio" name="principal" value="Toto Wolff"> Toto Wolff</label>
+                            </div>
+                            <div class="principal-column right-column">
+                                <label class="principal"><input type="radio" name="principal" value="Christian Horner"> Christian Horner</label>
+                                <label class="principal"><input type="radio" name="principal" value="Jost Capito"> Jost Capito</label>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="favorite-circuits">
+                        <label id="circuit-label">What are your favorite circuits?</label>
+                        <div id="circuits">
+                            <div class="circuit-column">
+                                <div class="circuit"><input id="Bahrain International Circuit" value="Bahrain International Circuit" type="checkbox" name="circuits"><label for="Bahrain International Circuit">Bahrain International Circuit</label></div>
+                                <div class="circuit"><input id="Jeddah Street Circuit" value="Jeddah Street Circuit" type="checkbox" name="circuits"><label for="Jeddah Street Circuit">Jeddah Street Circuit</label></div>
+                                <div class="circuit"><input id="Albert Park" value="Albert Park" type="checkbox" name="circuits"><label for="Albert Park">Albert Park</label></div>
+                                <div class="circuit"><input id="Autodromo Enzo e Dino Ferrari" value="Autodromo Enzo e Dino Ferrari" type="checkbox" name="circuits"><label for="Autodromo Enzo e Dino Ferrari">Autodromo Enzo e Dino Ferrari</label></div>
+                                <div class="circuit"><input id="Miami International Autodrome" value="Miami International Autodrome" type="checkbox" name="circuits"><label for="Miami International Autodrome">Miami International Autodrome</label></div>
+                                <div class="circuit"><input id="Circuit de Catalunya" value="Circuit de Catalunya" type="checkbox" name="circuits"><label for="Circuit de Catalunya">Circuit de Catalunya</label></div>
+                                <div class="circuit"><input id="Circuit de Monaco" value="Circuit de Monaco" type="checkbox" name="circuits"><label for="Circuit de Monaco">Circuit de Monaco</label></div>
+                                <div class="circuit"><input id="Baku City Circuit" value="Baku City Circuit" type="checkbox" name="circuits"><label for="Baku City Circuit">Baku City Circuit</label></div>
+                            </div>
+                            <div class="circuit-column right-column">
+                                <div class="circuit"><input id="Circuit Gilles Villeneuve" value="Circuit Gilles Villeneuve" type="checkbox" name="circuits"><label for="Circuit Gilles Villeneuve">Circuit Gilles Villeneuve</label></div>
+                                <div class="circuit"><input id="Circuit Silverstone" value="Circuit Silverstone" type="checkbox" name="circuits"><label for="Circuit Silverstone">Circuit Silverstone</label></div>
+                                <div class="circuit"><input id="Red Bull Ring" value="Red Bull Ring" type="checkbox" name="circuits"><label for="Red Bull Ring">Red Bull Ring</label></div>
+                                <div class="circuit"><input id="Circuit Paul Ricard" value="Circuit Paul Ricard" type="checkbox" name="circuits"><label for="Circuit Paul Ricard">Circuit Paul Ricard</label></div>
+                                <div class="circuit"><input id="Hungaroring" value="Hungaroring" type="checkbox" name="circuits"><label for="Hungaroring">Hungaroring</label></div>
+                                <div class="circuit"><input id="Spa-Francorchamps" value="Spa-Francorchamps" type="checkbox" name="circuits"><label for="Spa-Francorchamps">Spa-Francorchamps</label></div>
+                                <div class="circuit"><input id="Circuit Zandvoort" value="Circuit Zandvoort" type="checkbox" name="circuits"><label for="Circuit Zandvoort">Circuit Zandvoort</label></div>
+                                <div class="circuit"><input id="Autodromo Nazionale Monza" value="Autodromo Nazionale Monza" type="checkbox" name="circuits"><label for="Autodromo Nazionale Monza">Autodromo Nazionale Monza</label></div>
+                            </div>
+                            <div class="circuit-column right-column">
+                                <div class="circuit"><input id="Marina Bay Street Circuit" value="Marina Bay Street Circuit" type="checkbox" name="circuits"><label for="Marina Bay Street Circuit">Marina Bay Street Circuit</label></div>
+                                <div class="circuit"><input id="Suzuka Circuit" value="Suzuka Circuit" type="checkbox" name="circuits"><label for="Suzuka Circuit">Suzuka Circuit</label></div>
+                                <div class="circuit"><input id="Circuit of the Americas" value="Circuit of the Americas" type="checkbox" name="circuits"><label for="Circuit of the Americas">Circuit of the Americas</label></div>
+                                <div class="circuit"><input id="Autodromo Hermanos Rodriguez" value="Autodromo Hermanos Rodriguez" type="checkbox" name="circuits"><label for="Autodromo Hermanos Rodriguez">Autodromo Hermanos Rodriguez</label></div>
+                                <div class="circuit"><input id="Autodromo Jose Carlos Pace Interlagos" value="Autodromo Jose Carlos Pace Interlagos" type="checkbox" name="circuits"><label for="Autodromo Jose Carlos Pace Interlagos">Autodromo Jose Carlos Pace Interlagos</label></div>
+                                <div class="circuit"><input id="Yas Marina Circuit" value="Yas Marina Circuit" type="checkbox" name="circuits"><label for="Yas Marina Circuit">Yas Marina Circuit</label></div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="favorite-driver">
+                        <label id="driver-label" for="driver">Favorite driver:</label>
+                        <textarea id="driver" name="driver" rows="4", cols="30" placeholder="Tell us who your favorite driver is."></textarea>
+                      </section>
+                </fieldset>
+                <div id="submit-div">
+                    <button id="submit" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+body {
+    background-image: url("2022-f1-calendar-drivers-championship-standings-zak-mauger-mi-21032022.jpeg");
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+#body-div {
+    background-color: rgba(68, 68, 68, 0.9);
+    border-radius: 50px;
+    color: #FFFFFF;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    width: 70%;
+}
+
+h1, p {
+    text-align: center;
+}
+
+form {
+    margin: auto;
+    width: 90%;
+}
+
+fieldset {
+    border: none;
+}
+
+.demographic-label, .demographic-input, #dropdown-label, #dropdown, #principal-label, #driver-label, #driver {
+    display: block;
+}
+
+.demographic-label, #dropdown-label, #favorite-principal, #favorite-circuits, fieldset {
+    margin-bottom: 20px;
+}
+
+.demographic-input, #dropdown, #driver {
+    height: 25px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#principals div, #circuits .circuit-column {
+    display: inline-block;
+}
+
+.principal-column label, .circuit-column {
+    display: block;
+}
+
+.principal-column, .circuit-column, #driver {
+    margin-top: 5px;
+}
+
+.right-column {
+    margin-left: 50px;
+}
+
+#principals div, #circuits div {
+    vertical-align: top;
+}
+
+#submit-div {
+    text-align: center;
+}
+
+.demographic-label, #dropdown-label, #principal-label, #circuit-label, #driver-label {
+    font-weight: bold;
+}
