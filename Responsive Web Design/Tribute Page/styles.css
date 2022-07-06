@@ -1,0 +1,37 @@
+body {
+    background-color: #FCFCDC;
+    font-family: "Baskerville";
+    text-align: center;
+}
+
+#img-div {
+    background-color: #FFFFFF;
+    padding: 20px 0;
+    width: 95%;
+}
+
+#timeline {
+    text-align: left;
+    margin: auto;
+    padding-top: 50px;
+    width: 50%;
+}
+
+.year, #wiki {
+    font-weight: bold;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#quote {
+    margin: 50px 0;
+}
+
+#image {
+    display: block;
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+}
