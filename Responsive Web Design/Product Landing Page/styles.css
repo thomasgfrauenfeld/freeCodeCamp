@@ -1,0 +1,140 @@
+body {
+    margin-top: 75px;
+}
+
+#header {
+    background-color: #ffdd00;
+    left: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#header-img {
+    float: left;
+    width: 200px;
+}
+
+#nav-bar {
+    height: 100%;
+    margin-top: 20px;
+}
+
+.nav-link {
+    color: #000000;
+    font-size: 16pt;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: rgb(0, 0, 255);
+    text-decoration: underline;
+}
+
+#tire-imgs {
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.tire_img {
+    margin: auto;
+}
+
+#middle-img {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+#Overview {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+}
+
+.tire-section {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: inline-block;
+    height: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    vertical-align: top;
+    width: 15%;
+}
+
+.tire-section:hover {
+    border: 2px solid black;
+}
+
+.first {
+    margin-right: 20px;
+}
+
+.inside {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.last {
+    margin-left: 20px;
+}
+
+#Tires {
+    text-align: center;
+}
+
+.sub-header {
+    font-weight: bold;
+}
+
+#Guide {
+    text-align: center;
+}
+
+#SignUp {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.line {
+    border: 1px solid #000000;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 75%;
+}
+
+.flex-container {
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .tire_img {
+        margin: auto;
+        height: 105px;
+    }
+
+    #middle-img {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .main-section {
+        display: block;
+    }
+
+    .tire-section {
+        margin: auto;
+        width: 50%;
+    }
+
+    .inside {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
